@@ -1,0 +1,282 @@
+/* button style */
+
+
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+/* button 1 */
+
+
+
+a.animated-button.one {
+	border: 2px solid black;
+    border-radius: 20px;
+    width: 250px;
+    float: left;
+    padding: 10px;
+     color:black;
+    margin-left: 25px;
+    position: absolute;
+}
+a.animated-button.one:after {
+    /* border: 2px solid #D24D57; */
+	background: #D24D57;
+   color:white;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+
+
+  /* For better visibility of the example */
+
+  /* Message box starts here */
+  .container {
+    clear: both;
+    position: relative;
+    margin-left: 260px;
+   
+
+  }
+  
+  .container .arrow {
+    width: 12px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    top: 6px;
+    right: -1px;
+  }
+  
+  .container .arrow .outer {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #D24D57;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .container .arrow .inner {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #ffffff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 2px;
+  }
+  
+  .container .message-body {
+    float: left;
+    width: 300px;
+    height: auto;
+    border: 1px solid #CCC;
+    /* background-color: #ffffff; */
+    border: 1px solid #D24D57;
+    
+    padding: 6px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  /* .container .message-body p {
+    margin: 0;
+  } */
+
+  .odd{
+    background-image: linear-gradient(white,#D24D57)!important;
+    
+  }
+
+
+  h1{
+      font-size: 20px;
+      padding: 5px;
+    
+      
+  }
+
+  .btnjoin1{
+   border: 2px solid #D24D57;
+   border-radius: 15px;
+   background-color: white;
+   padding: 10px;
+   background-image: linear-gradient(white,#D24D57)!important;
+
+  }
+
+
+  .btnjoin2{
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: blue;
+    padding: 10px;
+    color:white;
+ 
+   }
+
+  .container .message-body p{
+      font-size:12px;
+      padding-bottom:10px!important;
+  }
+  
+
+  .container .arrow2 {
+    width: 12px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    top: 6px;
+    right: -1px;
+    
+  }
+  
+  .container .arrow2 .outer2 {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #000000;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .container .arrow2 .inner2 {
+    width: 0;
+    height: 0;
+    border-right: 20px solid black;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+    position: absolute;
+    top: 0;
+    left: 2px;
+  }
+
+  .container .message-body2 {
+    float: left;
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    /* background-color: #ffffff; */
+    border: 1px solid #000000;
+     background-color: black;
+    padding: 6px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  /* .container .message-body p {
+    margin: 0;
+  } */
+
+.even{
+background-color: black;
+    
+  }
+
+
+  h1{
+      font-size: 20px;
+      padding: 5px;
+   
+      
+  }
+
+  .btnjoin1{
+   border: 2px solid #D24D57;
+   border-radius: 15px;
+   background-color: white;
+   padding: 10px;
+
+  }
+
+  .container .message-body2 p{
+      font-size:12px;
+      padding-bottom:10px!important;
+  }
+  
+  .icon{
+      border: 2px solid grey;
+      border-radius: 100px;
+      padding: 2px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: grey;
+  }
+  
+  
+  
